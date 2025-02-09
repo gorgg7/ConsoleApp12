@@ -122,7 +122,7 @@ public class Program
         list.Add(2);
         list.Add(3);
         list.Add(4);
-        list.Add(5);
+    
 
         Console.WriteLine(list.Exists(x => x > 3)); 
         Console.WriteLine(list.Find(x=>x>3));
